@@ -1,0 +1,36 @@
+/*
+ Default styles for charts
+*/
+
+#chart {
+	border: 1px solid #dedede;
+	border-radius: 3px;
+	min-height: 300px;
+	margin-bottom: 2rem;
+}
+
+path.line { 
+    stroke: steelblue;
+    stroke-width: 2;
+    fill: none;
+}
+
+.slice path {
+	stroke-width: 0;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #dedede;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+g text {
+	fill: #999;
+}
+
+.slice text {
+	fill: #fff;
+}
